@@ -2,7 +2,9 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
+
 
 /* -------------Navigation Styles------------ */
 .nav-section{
@@ -64,7 +66,7 @@ body{
     color: #FFFFFF;
 }
 .banner-image{
-    background-image: url( /images/Circle\ design.svg);
+    background-image: url(../images/Circle\ design.svg);
     background-repeat: round;
     padding-top: 20px;
     padding-right: 100px;
@@ -102,6 +104,7 @@ body{
     font-weight: 600;
     font-size: 28px;
     color: #3A3A3A;
+    text-align: center;
  }
  .container{
     display: grid;
@@ -133,6 +136,8 @@ body{
     font-weight: 400;
     font-size: 24px;
     color: rgba(0, 0, 0, 0.87);
+    margin-top: -10px;
+    margin-bottom: -10px;
  }
 
  .rating-filled, .rating-gap{
@@ -142,4 +147,5 @@ body{
     font-weight: 700;
     font-size: 14px;
     color: #787885;
+    margin-top: -10px;
  }
